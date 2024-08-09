@@ -25,12 +25,8 @@ body{
 .container{
     background-color: hsl(0, 0%, 12%);
     border-radius: 10px;
-    width: 400px;
-    padding: 24px;
-    width: 30%;
+    padding: 20px;
     margin-top: 3rem;
-    
-    
 }
 
 .container img {
@@ -93,7 +89,7 @@ body{
     color: hsl(228, 45%, 44%); 
 }
 
-@media (min-width:1440px) {
+@media (max-width: 1440px) {
     .container{
         width: 400px;
     }
